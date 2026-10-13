@@ -1,0 +1,23 @@
+﻿body {
+  margin: 16px;
+  font-family: Arial, sans-serif;
+}
+
+button, input, select {
+  font: inherit;
+  padding: 6px;
+}
+
+button {
+  margin: 6px;
+}
+
+input, select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+}

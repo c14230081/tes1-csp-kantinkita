@@ -1,0 +1,57 @@
+﻿.app {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow-wrap: break-word;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
+
+.menu {
+  flex: 2;
+  min-width: 0;
+}
+
+.pesanan {
+  flex: 1;
+  min-width: 0;
+}
+
+.panel {
+  margin-bottom: 24px;
+}
+
+.menuCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.menuCard h3 {
+  margin-top: 0;
+}
+
+.menuHabis {
+  background: #eee;
+}
+
+.aktif {
+  border-color: #0074aa;
+  font-weight: bold;
+}
+
+button:hover:not(:disabled) {
+  background: #ddd;
+}
+
+.error {
+  color: #b00020;
+}
+
+@media (max-width: 600px) {
+  .layout {
+    display: block;
+  }
+}
